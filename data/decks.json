@@ -1,0 +1,116 @@
+{
+    "631904818624987167": {
+        "deck1": {
+            "id": 1,
+            "name": "Nathan ma femme",
+            "cards": {
+                "1": {
+                    "name": "Nathan",
+                    "emoji": "\ud83d\udc10"
+                },
+                "2": {
+                    "name": "Fake Nathan",
+                    "emoji": "\ud83d\udd35"
+                },
+                "3": {
+                    "name": "Dejan",
+                    "emoji": "\ud83d\udfe0"
+                },
+                "4": {
+                    "name": "Cricri",
+                    "emoji": "\ud83d\udfe0"
+                },
+                "5": {
+                    "name": "Florian",
+                    "emoji": "\ud83d\udee0\ufe0f"
+                },
+                "6": {
+                    "name": "Mega Cricri",
+                    "emoji": "\ud83d\udc10"
+                }
+            }
+        },
+        "deck2": {
+            "id": 2,
+            "name": "Deck p2w",
+            "cards": {
+                "1": {
+                    "name": "Mega Cricri",
+                    "emoji": "\ud83d\udc10"
+                },
+                "2": {
+                    "name": "Nathan",
+                    "emoji": "\ud83d\udc10"
+                },
+                "4": {
+                    "name": "Seb",
+                    "emoji": "\ud83d\udfe0"
+                },
+                "3": {
+                    "name": "Dejan",
+                    "emoji": "\ud83d\udfe0"
+                },
+                "5": {
+                    "name": "Florian",
+                    "emoji": "\ud83d\udee0\ufe0f"
+                },
+                "6": {
+                    "name": "Dortens",
+                    "emoji": "\ud83d\udee0\ufe0f"
+                }
+            }
+        },
+        "deck3": {
+            "id": 3,
+            "name": "Deck 3",
+            "cards": {}
+        },
+        "deck4": {
+            "id": 4,
+            "name": "Deck 4",
+            "cards": {}
+        },
+        "deck5": {
+            "id": 5,
+            "name": "Deck 5",
+            "cards": {}
+        },
+        "deck6": {
+            "id": 6,
+            "name": "Deck 6",
+            "cards": {}
+        }
+    },
+    "1343887423758929980": {
+        "deck1": {
+            "id": 1,
+            "name": "Deck 1",
+            "cards": {}
+        },
+        "deck2": {
+            "id": 2,
+            "name": "Deck 2",
+            "cards": {}
+        },
+        "deck3": {
+            "id": 3,
+            "name": "Deck 3",
+            "cards": {}
+        },
+        "deck4": {
+            "id": 4,
+            "name": "Deck 4",
+            "cards": {}
+        },
+        "deck5": {
+            "id": 5,
+            "name": "Deck 5",
+            "cards": {}
+        },
+        "deck6": {
+            "id": 6,
+            "name": "Deck 6",
+            "cards": {}
+        }
+    }
+}

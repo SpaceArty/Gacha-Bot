@@ -1,0 +1,78 @@
+{
+    "Trash": {
+      "probability": 18.5,
+      "color": "#2f3136",
+      "cards": {
+        "Déchet": "https://i.imgur.com/vgeYtrh.png"
+      }
+    },
+    "Common": {
+      "probability": 53.79,
+      "color": "#57f287",
+      "cards": {
+        "Draftbot": "https://i.imgur.com/tqEUIv4.png",
+        "Dyno": "https://i.imgur.com/d15jbkD.png",
+        "Asma": "https://i.imgur.com/pif2pko.png",
+        "Elon Musk": "https://i.imgur.com/nRv6yan.png",
+        "Mai Sakurajima": "https://i.imgur.com/A5nszmc.png",
+        "Astolfo": "https://i.imgur.com/IHaeNSh.png",
+        "Castorice": "https://i.imgur.com/7WZKu2c.png"
+      }
+    },
+    "Rare": {
+      "probability": 20,
+      "color": "#7289da",
+      "cards": {
+        "Gabriel": "https://i.imgur.com/b4smrub.png",
+        "Christ": "https://i.imgur.com/HZwD2vL.png",
+        "Yasin": "https://i.imgur.com/GBjpvqk.png",
+        "Hugo": "https://i.imgur.com/03HnVCZ.png",
+        "Winrar": "https://i.imgur.com/uEqQh8k.png",
+        "Fake Nathan": "https://i.imgur.com/odBEuQc.png"
+      }
+    },
+    "Epic": {
+      "probability": 7,
+      "color": "#9b59b6",
+      "cards": {
+        "Loic": "https://i.imgur.com/HUWDmGb.png",
+        "Abdu": "https://i.imgur.com/JpSP5AV.png",
+        "Himeko": "https://i.imgur.com/diw7f33.png",
+        "Drax": "https://i.imgur.com/NHAvQCc.png",
+        "Staline": "https://i.imgur.com/dzNUdsF.png"
+      }
+    },
+    "Legendary": {
+      "probability": 0.5,
+      "color": "#FFD700",
+      "cards": {
+        "Hatsune Miku": "https://i.imgur.com/dakAaKE.png",
+        "Marco": "https://i.imgur.com/hangkwF.png",
+        "Dejan": "https://i.imgur.com/rHRUDN9.png",
+        "Seb": "https://i.imgur.com/nDCFvk1.png",
+        "Julien": "https://i.imgur.com/SeNy5Hz.png",
+        "Déchet Qualitatif": "https://i.imgur.com/M7PExzk.png",
+        "mr Defrenne": "https://i.imgur.com/xbUMJki.png",
+        "Cricri": "https://i.imgur.com/ljm4SjO.png"
+      }
+    },
+    "Goat": {
+      "probability": 0.1,
+      "color": "#f54242",
+      "cards": {
+        "Nathan": "https://i.imgur.com/55TdT8w.png",
+        "Damaris": "https://i.imgur.com/iHAyuCI.png",
+        "Mega Cricri": "https://i.imgur.com/YjgOsnC.png",
+        "cpt Stupia": "https://i.imgur.com/2LeqZk2.png"
+      }
+    },
+    "Dieu": {
+      "probability": 0.02,
+      "color": "#7289da",
+      "cards": {
+        "Dortens": "https://i.imgur.com/pu6GP2C.png",
+        "Florian": "https://i.imgur.com/BHQOF1n.png"
+      }
+    }
+  }
+  

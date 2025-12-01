@@ -1,0 +1,233 @@
+{
+    "Déchet": {
+        "description": "Le repas préferé de Loic.",
+        "passif": "Regarde l'adversaire de façon menaçante. Possède 1% de chance de gagner le combat en attaquant.",
+        "attaque": 0,
+        "defense": 0,
+        "ID": "T001"
+    },
+    "Draftbot": {
+        "description": "L'esclave n°1 qui protège le serveur.",
+        "passif": "Augmente sa défense de 2 pour chaque attaque subie.",
+        "attaque": 5,
+        "defense": 5,
+        "ID": "C001"
+    },
+    "Dyno": {
+        "description": "L'esclave n°2 qui surveille le peuple.",
+        "passif": "**(Spawn)** Réduit l'attaque de l'ennemi de 1 pour chaque point de défense que Dyno possède.",
+        "attaque": 6,
+        "defense": 4,
+        "ID": "C002"
+    },
+    "Asma": {
+        "description": "La terroriste d'Al Kaida.",
+        "passif": "Augmente son attaque de 5 chaque fois qu'elle inflige des dégâts. Si son attaque dépasse 30, elle explose et tue toute les cartes sur le terrain.",
+        "attaque": 8,
+        "defense": 2,
+        "ID": "C003"
+    },
+    "Mai Sakurajima": {
+        "description": "La waifu de Cricri.",
+        "passif": "Gagne un stack d'**Adoration** par tour (même dans votre deck). **Adoration :** augmente sa défense de 2.",
+        "attaque": 4,
+        "defense": 6,
+        "ID": "C004"
+    },
+    "Astolfo": {
+        "description": "100% legit. 0 piège ici.",
+        "passif": "**(Spawn)** Augmente son attaque de 10 si l'attaque ennemie est supérieur à la celle d'Astolfo.",
+        "attaque": 7,
+        "defense": 3,
+        "ID": "C005"
+    },
+    "Castorice": {
+        "description": "Sponsorisé par Honkai Star Rail.",
+        "passif": "A chaque début de tour, perds 1 d'attaque pour gagner 2 de défense. Si son attaque est négative, ne fait rien.",
+        "attaque": 4,
+        "defense": 7,
+        "ID": "C006"
+    },
+    "Elon Musk": {
+        "description": "Le nazi en devenir.",
+        "passif": "Augmente son attaque de 7 pendant son tour, mais n'as aucune défense lors du tour adverse.",
+        "attaque": 10,
+        "defense": 2,
+        "ID": "C007"
+    },
+    "Gabriel": {
+        "description": "L'electro sorcier.",
+        "passif": "**(Spawn)** Gagne 10 d'attaque et défense si l'adversaire possède cette carte dans son deck.",
+        "attaque": 10,
+        "defense": 8,
+        "ID": "R001"
+    },
+    "Christ": {
+        "description": "Le géant royal en probation.",
+        "passif": "**(Spawn)** Réduit l'attaque de 5 de chaque ennemi qui possède moins d'attaque que Christ.",
+        "attaque": 18,
+        "defense": 0,
+        "ID": "R002"
+    },
+    "Yasin": {
+        "description": "Le mangeur de cochon.",
+        "passif": "Augmente son attaque de 5 au début de chaque tour si la carte adverse a plus de défense que Yasin.",
+        "attaque": 12,
+        "defense": 6,
+        "ID": "R003"
+    },
+    "Hugo": {
+        "description": "Il est jamais là.",
+        "passif": "Gagne un stack d'**Asbsence** par tour sans avoir été joué. **Absence :** gagne 2 point dans chaque stats.",
+        "attaque": 8,
+        "defense": 10,
+        "ID": "R004"
+    },
+    "Winrar": {
+        "description": "Attends toujours que tu paye sa liscence.",
+        "passif": "**(Spawn)** Gagne 20 points dans chaque stats si l'utilisateur à payé la liscence Winrar.",
+        "attaque": 11,
+        "defense": 7,
+        "ID": "R005"
+    },
+    "Fake Nathan": {
+        "description": "Le fake de faker.",
+        "passif": "Augmente sa défense de 4 chaque tour passé sur le terrain si l'un des joueurs possède une autre carte Nathan.",
+        "attaque": 7,
+        "defense": 12,
+        "ID": "R006"
+    },
+    "Loic": {
+        "description": "Les jaloux jactent, je suis le goat.",
+        "passif": "Réduit l'attaque de l'adversaire de 4 chaque fois qu'il inflige des dégâts à Loic.",
+        "attaque": 25,
+        "defense": 5,
+        "ID": "E001"
+    },
+    "Abdu": {
+        "description": "Le mec qui joue elfes a bombes.",
+        "passif": "Augmente son attaque de 5 chaque fois qu'un ennemi subit un effet de statut. **(Spawn)** Si son attaque dépasse 60 points, il inflige 911 points de dégats à l'adversaire.",
+        "attaque": 22,
+        "defense": 8,
+        "ID": "E002"
+    },
+    "Himeko": {
+        "description": "La waifu de Nathan.",
+        "passif": "Chaque attaque inflige un stack de **Kiana** a l'adversaire. **Kiana :** réduit la défense de 4 pendant 2 tours.",
+        "attaque": 18,
+        "defense": 12,
+        "ID": "E003"
+    },
+    "Drax": {
+        "description": "Le latino au prénom trop commun.",
+        "passif": "Inflige un **Poison léger** à l'ennemi en attaquant. **Poison léger :** réduit la défense de 5%.",
+        "attaque": 27,
+        "defense": 3,
+        "ID": "E004"
+    },
+    "Staline": {
+        "description": "Un homme bien.",
+        "passif": "**(Mort)** Envois la carte de l'adversaire dans sa main avec 50% de stats en moins.",
+        "attaque": 15,
+        "defense": 15,
+        "ID": "E005"
+    },
+    "Hatsune Miku": {
+        "description": "Vocaloid goatesque.",
+        "passif": "Gagne 10% de stats a chaque fois qu'une carte est **Charmé**. **Charmé :** inflige 10% de dégats en moins.",
+        "attaque": 46,
+        "defense": 5,
+        "ID": "L001"
+    },
+    "Marco": {
+        "description": "Polo.",
+        "passif": "Si marco est votre première carte joué, il gagné un **Bonbon** pour être arrivé a l'heure. **Bonbon :** les stats de cette carte sont augmentés de 20%.",
+        "attaque": 40,
+        "defense": 8,
+        "ID": "L002"
+    },
+    "Dejan": {
+        "description": "Le frappeur d'asiat.",
+        "passif": "Dejan gagne un stack de **Monster** a chaque fin de tour. **Monster :** soigne 5HP à chaque début de tour.",
+        "attaque": 0,
+        "defense": 52,
+        "ID": "L003"
+    },
+    "Seb": {
+        "description": "Le comptable trop bg.",
+        "passif": "Lorsqu'il est sur le terrain, gagne 10% d'esquive par tour ou il n'inflige pas de dégats. (l'esquive est max a 70%)",
+        "attaque": 32,
+        "defense": 18,
+        "ID": "L004"
+    },
+    "Julien": {
+        "description": "Possède un gun.",
+        "passif": "Chaque attaque inflige un effet de **Saignement** à l'ennemi. **Saignement :** réduit la précision de 5%.",
+        "attaque": 37,
+        "defense": 12,
+        "ID": "L005"
+    },
+    "Déchet Qualitatif": {
+        "description": "Trop chère pour que Loic le mange.",
+        "passif": "A chaque fois que cette carte attaque ou est attaqué, augmente la probabilité du passif de la carte déchet de 1%.",
+        "attaque": 27,
+        "defense": 20,
+        "ID": "L006"
+    },
+    "mr Defrenne": {
+        "description": "Un prof de math goatesque.",
+        "passif": "**(Spawn)** Si l'une des stats d'une carte sur le terrain est égal à 42, gagne 100% de stats en plus.",
+        "attaque": 30,
+        "defense": 22,
+        "ID": "L007"
+    },
+    "Cricri": {
+        "description": "Le faux.",
+        "passif": "Chaque attaque à 30% d'infliger un effet de **Brulure** a l'adversaire. **Brulure :** inflige 10 point de dégats par tour.",
+        "attaque": 43,
+        "defense": 5,
+        "ID": "L008"
+    },
+    "Nathan": {
+        "description": "Le goat des Asiat.",
+        "passif": "Lorsqu'un ennemis est éliminé, gagne un stack de **Riz** et se soigne de 50% de ses pv manquant. **Riz :** gagne 20% d'attaque en plus.",
+        "attaque": 50,
+        "defense": 15,
+        "ID": "G001"
+    },
+    "Damaris": {
+        "description": "La commandant.",
+        "passif": "Réduit de moitié les dégâts reçus. Pour chaque dégat subit, augmente sa défense de 1.",
+        "attaque": 42,
+        "defense": 23,
+        "ID": "G002"
+    },
+    "Mega Cricri": {
+        "description": "A la fin il n'en restera qu'un.",
+        "passif": "Gagne un stack de **KuriKuri** a chaque fois que Mega Cricri subit des dégâts. **KuriKuri :** augmente l'attaque de 20, dure 3 tours.",
+        "attaque": 60,
+        "defense": 10,
+        "ID": "G003"
+    },
+    "cpt Stupia": {
+        "description": "Le goat des prof de math.",
+        "passif": "Voyage les mers a la recherche du one piece, lors d'un tour pair il gagne 30 d'attaque et lors d'un tour impaire 30 de défense.",
+        "attaque": 35,
+        "defense": 32,
+        "ID": "G004"
+    },
+    "Dortens": {
+        "description": "L'homme a tout faire.",
+        "passif": "**(Spawn)** Gagne un stack de **Fractale** pour chaque cartes mortes cette partie. A chaque fois qu'elle se prends des dégats, elle perds 30 de défense. A 0 de défense, elle meurt. **Fractale :** gagne 20 de défense",
+        "attaque": 59,
+        "defense": 50,
+        "ID": "D001"
+    },
+    "Florian": {
+        "description": "Trop d'égo pour écrire quelque chose de sérieux.",
+        "passif": "Cette carte gagne 50 point de vie par cartes morte cette partie. **(Spawn)** Anulle le passif de la carte adverse, inflige 69 points de dégats a chaque cartes ennemies.",
+        "attaque": 69,
+        "defense": 42,
+        "ID": "D002"
+    }
+}
