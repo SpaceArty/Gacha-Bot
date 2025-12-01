@@ -1,6 +1,7 @@
 import discord; import random
 from discord.ui import View, Button
 from discord.ext import commands
+from fighting import fighting
 from utils import load, guards, config
 
 class FightRequestView(guards.AuthorOnlyView):
@@ -117,7 +118,7 @@ class FightRequestView(guards.AuthorOnlyView):
 
                 await interaction.response.edit_message(embed=embed, view=duel_view)
                 # Appel de ta fonction de combat ici
-                # await self.start_duel(interaction)
+                fighting.start_fight(self, self.challenger, self.opponent, self.challenger_deck, self.opponent_deck)
         return callback
 
     def make_deck_callback(self, player: discord.Member, deck_key: str, deck_label: str):
@@ -142,9 +143,8 @@ class FightRequestView(guards.AuthorOnlyView):
 
                 await interaction.response.edit_message(embed=embed, view=duel_view)
                 # Appel de ta fonction de combat ici
-                # await self.start_duel(interaction)
+                fighting.start_fight(self, self.challenger, self.opponent, self.challenger_deck, self.opponent_deck)
         return callback
-
 
 class Fight(commands.Cog):
     def __init__(self, bot):

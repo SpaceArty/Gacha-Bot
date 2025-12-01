@@ -22,7 +22,7 @@
         },
         "Draftbot": {
             "rarity": "Common",
-            "count": 209,
+            "count": 211,
             "image": ""
         },
         "D\u00e9chet": {
@@ -37,7 +37,7 @@
         },
         "Asma": {
             "rarity": "Common",
-            "count": 215,
+            "count": 216,
             "image": ""
         },
         "Dyno": {
@@ -92,7 +92,7 @@
         },
         "Himeko": {
             "rarity": "Epic",
-            "count": 33,
+            "count": 34,
             "image": ""
         },
         "Drax": {
@@ -137,12 +137,12 @@
         },
         "Elon Musk": {
             "rarity": "Common",
-            "count": 147,
+            "count": 148,
             "image": ""
         },
         "Fake Nathan": {
             "rarity": "Rare",
-            "count": 63,
+            "count": 64,
             "image": "https://i.imgur.com/odBEuQc.png"
         },
         "Cricri": {
@@ -172,17 +172,17 @@
         },
         "Castorice": {
             "rarity": "Common",
-            "count": 72,
+            "count": 73,
             "image": "https://i.imgur.com/7WZKu2c.png"
         },
         "Astolfo": {
             "rarity": "Common",
-            "count": 77,
+            "count": 78,
             "image": "https://i.imgur.com/IHaeNSh.png"
         },
         "Mai Sakurajima": {
             "rarity": "Common",
-            "count": 82,
+            "count": 84,
             "image": "https://i.imgur.com/A5nszmc.png"
         }
     },
@@ -1435,6 +1435,13 @@
             "rarity": "Legendary",
             "count": 1,
             "image": "https://i.imgur.com/ljm4SjO.png"
+        }
+    },
+    "1344274591681482792": {
+        "Dejan": {
+            "rarity": "Legendary",
+            "count": -1,
+            "image": "https://i.imgur.com/rHRUDN9.png"
         }
     }
 }
