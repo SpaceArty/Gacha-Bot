@@ -112,5 +112,119 @@
             "name": "Deck 6",
             "cards": {}
         }
+    },
+    "359742020723539979": {
+        "deck1": {
+            "id": 1,
+            "name": "Deck 1",
+            "cards": {
+                "1": {
+                    "name": "Hugo",
+                    "emoji": "\ud83d\udd35"
+                },
+                "2": {
+                    "name": "Winrar",
+                    "emoji": "\ud83d\udd35"
+                },
+                "3": {
+                    "name": "Staline",
+                    "emoji": "\ud83d\udfe3"
+                },
+                "4": {
+                    "name": "Abdu",
+                    "emoji": "\ud83d\udfe3"
+                },
+                "5": {
+                    "name": "Cricri",
+                    "emoji": "\ud83d\udfe0"
+                },
+                "6": {
+                    "name": "Astolfo",
+                    "emoji": "\u26aa"
+                }
+            }
+        },
+        "deck2": {
+            "id": 2,
+            "name": "Deck 2",
+            "cards": {}
+        },
+        "deck3": {
+            "id": 3,
+            "name": "Deck 3",
+            "cards": {}
+        },
+        "deck4": {
+            "id": 4,
+            "name": "Deck 4",
+            "cards": {}
+        },
+        "deck5": {
+            "id": 5,
+            "name": "Deck 5",
+            "cards": {}
+        },
+        "deck6": {
+            "id": 6,
+            "name": "Deck 6",
+            "cards": {}
+        }
+    },
+    "466573413062934528": {
+        "deck1": {
+            "id": 1,
+            "name": "Dejan 2.6",
+            "cards": {
+                "1": {
+                    "name": "Dejan",
+                    "emoji": "\ud83d\udfe0"
+                },
+                "2": {
+                    "name": "Florian",
+                    "emoji": "\ud83d\udee0\ufe0f"
+                },
+                "3": {
+                    "name": "Dortens",
+                    "emoji": "\ud83d\udee0\ufe0f"
+                },
+                "4": {
+                    "name": "Nathan",
+                    "emoji": "\ud83d\udc10"
+                },
+                "5": {
+                    "name": "Mega Cricri",
+                    "emoji": "\ud83d\udc10"
+                },
+                "6": {
+                    "name": "cpt Stupia",
+                    "emoji": "\ud83d\udc10"
+                }
+            }
+        },
+        "deck2": {
+            "id": 2,
+            "name": "Deck 2",
+            "cards": {}
+        },
+        "deck3": {
+            "id": 3,
+            "name": "Deck 3",
+            "cards": {}
+        },
+        "deck4": {
+            "id": 4,
+            "name": "Deck 4",
+            "cards": {}
+        },
+        "deck5": {
+            "id": 5,
+            "name": "Deck 5",
+            "cards": {}
+        },
+        "deck6": {
+            "id": 6,
+            "name": "Deck 6",
+            "cards": {}
+        }
     }
 }

@@ -1,12 +1,14 @@
 import discord; import random
 from discord.ui import View, Button
 from discord.ext import commands
-from fighting import fighting
+from fighting.fight_logic import Fight_Logic
+from fighting.fight_view import FightView
 from utils import load, guards, config
 
 class FightRequestView(guards.AuthorOnlyView):
-    def __init__(self, challenger: discord.Member, opponent: discord.Member):
+    def __init__(self, ctx, challenger: discord.Member, opponent: discord.Member):
         super().__init__(owner=challenger, timeout=None)
+        self.ctx = ctx
         self.challenger = challenger
         self.opponent = opponent
         self.challenger_deck = None
@@ -117,8 +119,7 @@ class FightRequestView(guards.AuthorOnlyView):
                 )
 
                 await interaction.response.edit_message(embed=embed, view=duel_view)
-                # Appel de ta fonction de combat ici
-                fighting.start_fight(self, self.challenger, self.opponent, self.challenger_deck, self.opponent_deck)
+                await self.starting_fight(self.ctx, self.challenger, self.opponent, self.challenger_deck, self.opponent_deck)
         return callback
 
     def make_deck_callback(self, player: discord.Member, deck_key: str, deck_label: str):
@@ -142,9 +143,15 @@ class FightRequestView(guards.AuthorOnlyView):
                 )
 
                 await interaction.response.edit_message(embed=embed, view=duel_view)
-                # Appel de ta fonction de combat ici
-                fighting.start_fight(self, self.challenger, self.opponent, self.challenger_deck, self.opponent_deck)
+                await self.starting_fight(self.ctx, self.challenger, self.opponent, self.challenger_deck, self.opponent_deck)
         return callback
+
+    async def starting_fight(self, ctx, challenger: discord.Member, target: discord.Member, deck1: str, deck2: str):
+        logic = Fight_Logic()
+        d1, d2 = await logic.start_fight(challenger, target, deck1, deck2)
+        view = FightView(challenger, target, d1, d2)
+        msg = await ctx.send(embed=view.build_embed(), view=view)
+        view.message = msg
 
 class Fight(commands.Cog):
     def __init__(self, bot):
@@ -199,7 +206,7 @@ class Fight(commands.Cog):
         )
 
         # Duel avec quelqu’un → envoyer la view d’acceptation
-        view = FightRequestView(challenger=author, opponent=opponent)
+        view = FightRequestView(ctx=ctx, challenger=author, opponent=opponent)
         await ctx.send(embed=embed, view=view)
 
 async def setup(bot):
