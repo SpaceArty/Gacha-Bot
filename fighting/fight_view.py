@@ -71,20 +71,47 @@ class FightView(guards.AuthorOnlyView):
         return embed
 
     def next_turn(self):
-        # Si player1 vient de jouer
+        logic = Fight_Logic()
+
+        # Déterminer le joueur qui joue
         if not self.player1_played:
             self.player1_played = True
             self.current_player = self.player2
             self.current_opponent = self.player1
-        # Si player1 a déjà joué, c'est que player2 vient de finir son tour
+            current_card = self.current_card2
+            deck = self.deck2
         else:
             self.player2_played = True
             self.current_player = self.player1
             self.current_opponent = self.player2
-            # Les deux ont joué -> nouveau tour
+            current_card = self.current_card1
+            deck = self.deck1
             self.turn += 1
             self.player1_played = False
             self.player2_played = False
+
+        # Vérifier si la carte actuelle est morte
+        if logic.is_card_dead(current_card):
+            # Chercher les cartes vivantes
+            living_cards = [card for card in deck if not card.dead]
+
+            if living_cards:
+                # Modifier le message pour demander au joueur de choisir une carte
+                self.last_action = f"⚠️ {self.current_player.display_name}, votre carte actuelle est morte ! Choisissez votre nouvelle carte :"
+                
+                # On crée des boutons pour chaque carte vivante
+                self.clear_items()  # Supprime les anciens boutons
+                for card in living_cards:
+                    self.add_item(
+                        discord.ui.Button(
+                            label=f"{card.nom} ({card.HP} PV)",
+                            style=discord.ButtonStyle.secondary,
+                            custom_id=f"choose_{card.id}"
+                        )
+                    )
+            else:
+                # Si plus de cartes vivantes, le joueur perd
+                self.last_action = f"💀 {self.current_player.display_name} n'a plus de cartes vivantes ! {self.current_opponent.display_name} gagne !"
 
     # ----- Bouton attaque -----
     @discord.ui.button(label="🗡️ Attaquer", style=discord.ButtonStyle.danger)

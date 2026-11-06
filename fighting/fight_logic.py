@@ -66,6 +66,12 @@ class Fight_Logic():
                 self.deck2.append(card)
         return self.deck1, self.deck2
     
+    def is_card_dead(self, card: Card) -> bool:
+        return card.dead
+
+    def are_all_cards_dead(self, deck: list[Card]) -> bool:
+        return all(card.dead for card in deck)
+
     def attack(self, attacker, defender):
         # Dégâts de base aléatoire
         base_damage = random.randint(16, 24)
@@ -74,7 +80,7 @@ class Fight_Logic():
         damage_with_atk = base_damage * (1 + (attacker.attaque/100))
 
         # Réduction par défense
-        damage_received = damage_with_atk / (defender.defense / 4)
+        damage_received = damage_with_atk * (1 - (defender.defense/100))
 
         # Arrondir à l'entier et appliquer sur les PV
         damage_received = int(damage_received)

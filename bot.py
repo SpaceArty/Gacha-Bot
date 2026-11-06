@@ -1,4 +1,5 @@
 import discord; from discord.ext import commands
+from dotenv import load_dotenv
 import os; import traceback
 from utils import config
 
@@ -9,6 +10,8 @@ intents.messages = True
 intents.members = True
 
 bot = commands.Bot(command_prefix="!", intents=intents, help_command=None)
+load_dotenv()
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def load_cogs():
     plugins_dir = "plugins"
@@ -31,4 +34,4 @@ async def on_ready():
     print(f"Connecté en tant que {bot.user}")
     await load_cogs() # Charger les cogs après que le bot soit connecté
 
-bot.run(config.BOT_TOKEN)
+bot.run(BOT_TOKEN)

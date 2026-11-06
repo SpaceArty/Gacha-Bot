@@ -1,4 +1,3 @@
-BOT_TOKEN = "MTM0Mzg4NzQyMzc1ODkyOTk4MA.Gvw2vQ.NSskobuTJ20II7higoNlUE-7IXd4H0tZNe3yP8"
 INVENTORY_FILE = "data/inventory.json"
 CARDS_FILE = "data/cards.json"
 STATS_FILE = "data/cards_stats.json"
